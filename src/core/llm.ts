@@ -21,7 +21,7 @@ class LLM {
     });
 
     for await (const chunk of res) {
-      console.log(chunk.choices[0].delta.content);
+      // console.log(chunk.choices[0].delta.content);
     }
   }
 }
